@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <!-- Bootstrap 5 -->
+    <title>Bakery Website</title>
+
+    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/WebsiteAss/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/WebsiteAss/style.css">
     
 </head>
 <body>
-    <!-- ====== NAVBAR ====== -->
+        <!-- ====== NAVBAR ====== -->
+
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
         <div class="container-fluid px-4">
 
@@ -45,7 +46,7 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                        <a href="/WebsiteAss/Homepage.html" class="nav-link active">Home</a>
+                        <a href="/websiteAss/index.html" class="nav-link active">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -66,231 +67,193 @@
         </div>
     </nav>
 
-    <!--oeder-->
+    <!-- =====HERO====-->
+<section class="hero">
+    <div class="hero-content text-start">
 
-<section class="order-section">
+    <span class="welcome-text">Welcome to</span>
 
-    <div class="container-fluid">
+    <h1 class="hero-title">
+        THE NEAZAA <br>
+        BAKERY
+    </h1>
 
-        <div class="row g-4">
+    <h3 class="hero-subtitle">
+        Sweet Taste, Sweet Moment and
+        Happiness in Every Bite
+    </h3>
 
-            <!-- LEFT SIDE -->
+    <p class="hero-desc">
+        Freshly baked every morning with love and
+        premium ingredients.
+    </p>
 
-            <div class="col-lg-6">
 
-                <div class="order-left">
+        <button class="btn btn-custom">
+            <a href="/WebsiteAss/order.html"class="nav-link">Order Now</a>
+            
+        </button>
+    </div>
+</section>
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-                    <h2 class="menu-title">••• Menu •••</h2>
+<!-- POPULAR MENU -->
 
-                    <!-- c1 -->
+<section class="menu-section" id="popular menu">
+    <div class="container">
 
-                    <div class="menu-item">
+        <h2 class="menu-title">Popular Menu</h2>
 
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="Donut">
+        <div class="row g-5">
 
-                        <div class="product-info">
-                            <h6>Chocolate Doughnuts</h6>
-                            <span>3.00$</span>
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
+
+                    <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg"
+                         class="menu-img"
+                         alt="chocolate Frosted Doughnuts">
+
+                    <div class="p-3 d-flex justify-content-between align-items-center">
+
+                        <div>
+                            <h4 class="menu-name">Chocolate Doughnuts</h4>
+                            <p class="menu-desc">
+                                Soft and fluffy doughnuts topped with rich chocolate.
+                            </p>
                         </div>
 
-                        
-
-                        
+                        <div class="price-circle">$3.00</div>
 
                     </div>
-
-                    <!-- c2 -->
-
-                    <div class="menu-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="Donut">
-
-                        <div class="product-info">
-                            <h6>Chocolate Doughnuts</h6>
-                            <span>3.00$</span>
-                        </div>
-
-                        
-
-                        
-
-                    </div>
-
-                     <!-- c2 -->
-
-                    <div class="menu-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="Donut">
-
-                        <div class="product-info">
-                            <h6>Chocolate Doughnuts</h6>
-                            <span>3.00$</span>
-                        </div>
-
-                        
-
-                
-
-                    </div>
-
-                     <!-- c2 -->
-
-                    <div class="menu-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="Donut">
-
-                        <div class="product-info">
-                            <h6>Chocolate Doughnuts</h6>
-                            <span>3.00$</span>
-                        </div>
-
-                        
-
-                        
-
-                    </div>
-
-                     <!-- c2 -->
-
-                    <div class="menu-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="Donut">
-
-                        <div class="product-info">
-                            <h6>Chocolate Doughnuts</h6>
-                            <span>3.00$</span>
-                        </div>
-
-                        
-
-                    
-
-                    </div>
-
-
-                    <hr>
-
-                    <h5>Delivery Option</h5>
-
-                    <div class="option-item">
-                        <input type="radio" name="delivery" checked>
-                        <label>Home Delivery</label>
-                    </div>
-
-                    <div class="option-item">
-                        <input type="radio" name="delivery">
-                        <label>Pick Up at Store</label>
-                    </div>
-
-                    <hr>
-
-                    <h5>Payment Method</h5>
-
-                    <div class="option-item">
-                        <input type="radio" name="payment" checked>
-                        <label>Cash On Delivery</label>
-                    </div>
-
-                    <div class="option-item​ qr-payment">
-                        <input type="radio" name="payment">
-                        <label>QR code payment</label>
-                    </div>
-
-                    <img src="../picture/photo_2026-06-21_23-36-30.jpg"
-                        alt="QR Code"
-                        class="qr-img">
 
                 </div>
-
             </div>
 
-            <!-- RIGHT SIDE -->
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
 
-            <div class="col-lg-6">
+                    <img src="https://i.pinimg.com/736x/53/69/a4/5369a452b2e9da56bf94011d67e42ed0.jpg"
+                         class="menu-img"
+                         alt="chocolate Croissant">
 
-                <div class="order-right">
-
-                    <h3>Order Summary</h3>
-
-                    <div class="summary-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="">
+                    <div class="p-3 d-flex justify-content-between align-items-center">
 
                         <div>
-                            Chocolate Doughnuts x 3
+                            <h4 class="menu-name">Chocolate Croissant</h4>
+                            <p class="menu-desc">
+                               Freshly baked croissant filled with rich chocolate.
+                            </p>
                         </div>
 
-                        <span>9.00$</span>
-
-                    </div>
-
-                    <div class="summary-item">
-
-                        <img src="https://i.pinimg.com/736x/6e/fc/a3/6efca37118d8c59dc83253877e21420a.jpg" alt="">
-
-                        <div>
-                            Chocolate Doughnuts x 2
-                        </div>
-
-                        <span>6.00$</span>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="price-row">
-                        <span>Subtotal</span>
-                        <span>15.00$</span>
-                    </div>
-
-                    <div class="price-row">
-                        <span>Delivery Fee</span>
-                        <span>2.00$</span>
-                    </div>
-
-                    <hr>
-
-                    <div class="total-row">
-                        <span>Total</span>
-                        <span>17.00$</span>
-                    </div>
-
-                    <button class="order-btn">
-                        Place Order
-                    </button>
-
-                    <!-- Note -->
-
-                    <div class="box-card">
-
-                        <h5>Note to Rider</h5>
-
-                        <textarea placeholder="Any special request..."></textarea>
-
-                    </div>
-
-                    <!-- Contact -->
-
-                    <div class="box-card">
-
-                        <h5>Contact Information</h5>
-
-                        <input type="text" placeholder="Your Name">
-
-                        <input type="text" placeholder="Your Phone Number">
-
-                        <input type="text" placeholder="Your Address">
+                        <div class="price-circle">$2.50</div>
 
                     </div>
 
                 </div>
+            </div>
 
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
+
+                    <img src="https://i.pinimg.com/1200x/77/2d/40/772d4075de65b3182339ba7c582bc3be.jpg"
+                         class="menu-img"
+                         alt="chocolate Churros">
+
+                    <div class="p-3 d-flex justify-content-between align-items-center">
+
+                        <div>
+                            <h4 class="menu-name">Chocolate Churros</h4>
+                            <p class="menu-desc">
+                                Crispy golden churros served with rich melted chocolate.
+                            </p>
+                        </div>
+
+                        <div class="price-circle">$7.50</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- Card 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
+
+                    <img src="https://i.pinimg.com/1200x/65/da/56/65da5667249caa72922eae84351f3a5a.jpg"
+                         class="menu-img"
+                         alt="Blackbery pie">
+
+                    <div class="p-3 d-flex justify-content-between align-items-center">
+
+                        <div>
+                            <h4 class="menu-name">Blackbery pie</h4>
+                            <p class="menu-desc">
+                                Warm, flaky pastry filled with plump, seasonal wild berries.
+                            </p>
+                        </div>
+
+                        <div class="price-circle">$5.00</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- Card 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
+
+                    <img src="https://i.pinimg.com/736x/d1/ee/8d/d1ee8d0026b516254187dda792142670.jpg"
+                         class="menu-img"
+                         alt="opera Cake">
+
+                    <div class="p-3 d-flex justify-content-between align-items-center">
+
+                        <div>
+                            <h4 class="menu-name">Opera Cake</h4>
+                            <p class="menu-desc">
+                                Traditional French layered cake with rich coffee and chocolate.
+                            </p>
+                        </div>
+
+                        <div class="price-circle">$8.50</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- Card 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card">
+
+                    <img src="https://i.pinimg.com/736x/9d/25/93/9d2593780fe22eba7acf1ea6e9e57110.jpg"
+                         class="menu-img"
+                         alt="Strawberry Cake">
+
+                    <div class="p-3 d-flex justify-content-between align-items-center">
+
+                        <div>
+                            <h4 class="menu-name">Strawberry Cake</h4>
+                            <p class="menu-desc">
+                                Rich chocolate layers filled with fresh strawberries and cream.
+                            </p>
+                        </div>
+
+                        <div class="price-circle">$5.50</div>
+
+                    </div>
+
+                </div>
             </div>
 
         </div>
 
     </div>
-
 </section>
 
 <!-- FEATURES -->
@@ -416,7 +379,7 @@
 
                 <div class="row">
                     <div class="col-6">
-                        <a href="/WebsiteAss/Homepage.html">Home</a>
+                        <a href="/websiteAss/index.html">Home</a>
                         <a href="/WebsiteAss/Aboutus.html">About</a>
                         
                         
@@ -469,7 +432,6 @@
     </div>
 </div>
 </footer>
-    
 
-    </body>
+</body>
 </html>
